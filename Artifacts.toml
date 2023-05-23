@@ -205,26 +205,6 @@ os = "macos"
 [[DuckDB]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "27704cdb34abbeafc3bf6ae07a64369b7c6533b8"
-libc = "glibc"
-os = "linux"
-
-    [[DuckDB.download]]
-    sha256 = "1fc6b5552eeb92c92c2012538cdc03adfda11a1d5c37d1b9d0c269504c9dbae6"
-    url = "https://github.com/whatsthecraic/DuckDB_jll.jl/releases/download/DuckDB-v0.8.0+1/DuckDB.v0.8.0.x86_64-linux-gnu-cxx03.tar.gz"
-[[DuckDB]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "07e374c225ab75e3f4cdda49dd0c9fe5e83fd3e3"
-libc = "glibc"
-os = "linux"
-
-    [[DuckDB.download]]
-    sha256 = "d079a1dc8d83f3ab8c8e7c6bfa296666a4ae2450e44c783e128d7d99a373ae55"
-    url = "https://github.com/whatsthecraic/DuckDB_jll.jl/releases/download/DuckDB-v0.8.0+1/DuckDB.v0.8.0.x86_64-linux-gnu-cxx11.tar.gz"
-[[DuckDB]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
 git-tree-sha1 = "7d3828135f36ffa49cad894ec0b9c85f12524a59"
 libc = "musl"
 os = "linux"
@@ -250,3 +230,23 @@ os = "freebsd"
     [[DuckDB.download]]
     sha256 = "add1f275606001c9477bbfd42dbed4274f70050aca15d8ad60988e031253cd56"
     url = "https://github.com/whatsthecraic/DuckDB_jll.jl/releases/download/DuckDB-v0.8.0+1/DuckDB.v0.8.0.x86_64-unknown-freebsd.tar.gz"
+[[DuckDB]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c952047ea61e36d3ca68863c49cc7caa39bbb438"
+libc = "glibc"
+os = "linux"
+
+    [[DuckDB.download]]
+    sha256 = "8bf219b172ecad9c7c6ac899d7e07050d8a162892d5aa70e581f1288fb891a70"
+    url = "https://github.com/whatsthecraic/DuckDB_jll.jl/releases/download/DuckDB-v0.8.0+1/DuckDB.v0.8.0.x86_64-linux-gnu-cxx03.tar.gz"
+[[DuckDB]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "96e8262011c1df5885c449ad60d6fedb3897cc05"
+libc = "glibc"
+os = "linux"
+
+    [[DuckDB.download]]
+    sha256 = "fe5f625b4772a2d94d2ce5e6bd006508b63d19bc7a6740c7b29c0afa2493d88e"
+    url = "https://github.com/whatsthecraic/DuckDB_jll.jl/releases/download/DuckDB-v0.8.0+1/DuckDB.v0.8.0.x86_64-linux-gnu-cxx11.tar.gz"
