@@ -250,3 +250,12 @@ os = "linux"
     [[DuckDB.download]]
     sha256 = "d079a1dc8d83f3ab8c8e7c6bfa296666a4ae2450e44c783e128d7d99a373ae55"
     url = "https://github.com/whatsthecraic/DuckDB_jll.jl/releases/download/DuckDB-v0.8.0+1/DuckDB.v0.8.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[DuckDB]]
+arch = "aarch64"
+git-tree-sha1 = "59e88e02cd17d6a046373300a2e8129bad7fd003"
+libc = "glibc"
+os = "linux"
+
+    [[DuckDB.download]]
+    sha256 = "be8e157c9198d65391501066d565a7f90b3f7b1ca6d226b6522d5af66b49d9c1"
+    url = "https://github.com/whatsthecraic/DuckDB_jll.jl/releases/download/DuckDB-v1.0.0+1/DuckDB.v1.0.0+1.aarch64-linux-gnu.tar.gz"
